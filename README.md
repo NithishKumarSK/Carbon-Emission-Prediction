@@ -63,7 +63,7 @@ Contributions and suggestions are welcome! Feel free to fork the repo and raise 
 
 ## 📩 Contact
 
-**Nithish Kumar **  
+Nithish Kumar
 [GitHub Profile](https://github.com/NithishKumarSK)  
 Feel free to connect with me for any collaboration or feedback.
 
