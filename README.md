@@ -1,5 +1,3 @@
-# Carbon-Emission-Prediction
-
 # 🌍 Carbon Emission Prediction
 
 This project focuses on the **cleaning, preparation, and analysis of global climate change data** to support future carbon emission prediction models. The dataset contains key indicators like land usage, cereal yield, emissions, and more across multiple countries from 1990 to 2011.
@@ -8,15 +6,28 @@ This project focuses on the **cleaning, preparation, and analysis of global clim
 
 ---
 
+## 📚 Table of Contents
+
+- 📁 Folder Structure
+- 🚀 Project Highlights
+- 📊 Sample Data Snapshot
+- 🧪 Notebooks
+- 🖼️ Sample Chart from EDA
+- 📦 Tools Used
+- 📈 Next Steps
+- 🙌 Contributing
+- 📩 Contact
+
+---
+
 ## 📁 Folder Structure
 
 carbon/
-├── 1_data_preparation.ipynb # Notebook for data cleaning and preprocessing
-├── data_cleaned.csv # Final cleaned dataset
-├── climate_change_download_0.xls #dataset
-├── README.md # Project description (this file)
-
-
+├── 1_data_preparation.ipynb      # Notebook for data cleaning and preprocessing  
+├── 2_data_exploration.ipynb      # Notebook for data visualization and analysis  
+├── data_cleaned.csv              # Final cleaned dataset  
+├── climate_change_download_0.xls # Raw downloaded dataset  
+├── README.md                     # Project description (this file)
 
 ---
 
@@ -25,7 +36,8 @@ carbon/
 - Cleaned invalid entries (`''`, `'..'`) and standardized missing values as `NaN`
 - Converted all numerical columns to proper data types
 - Removed unneeded rows/columns with excessive missing data
-- Ready for exploratory data analysis (EDA) and machine learning use
+- Visualized CO₂ per capita by year and country
+- Ready for machine learning models and dashboards
 
 ---
 
@@ -39,9 +51,30 @@ carbon/
 
 ---
 
+## 🧪 Notebooks
+
+| Notebook | Description | View |
+|----------|-------------|------|
+| `1_data_preparation.ipynb` | Data cleaning, handling missing values, type conversions | [View on GitHub](https://github.com/NithishKumarSK/your-repo-name/blob/main/1_data_preparation.ipynb) |
+| `2_data_exploration.ipynb` | Exploratory data analysis (EDA), visualization using Seaborn & Matplotlib | [View on GitHub](https://github.com/NithishKumarSK/your-repo-name/blob/main/2_data_exploration.ipynb) |
+
+> 📝 Replace `your-repo-name` with your actual repository name.
+
+---
+
+## 🖼️ Sample Chart from EDA
+
+Here’s an example plot showing **CO₂ emissions per capita** over time for selected countries:
+
+![Sample Plot](https://raw.githubusercontent.com/NithishKumarSK/your-repo-name/main/sample_plot.png)
+
+> 📌 Upload a screenshot named `sample_plot.png` to your repo to display this image.
+
+---
+
 ## 📦 Tools Used
 
-- **Python** (Pandas, NumPy)
+- **Python** (Pandas, NumPy, Matplotlib, Seaborn, Statsmodels)
 - **Jupyter Notebook**
 - **Git & GitHub** for version control
 
@@ -49,9 +82,9 @@ carbon/
 
 ## 📈 Next Steps
 
-- Perform Exploratory Data Analysis (EDA)
-- Build predictive models for carbon emissions
-- Integrate with real-time climate dashboards
+- Build predictive models for carbon emissions using regression or time-series models
+- Integrate the output into a real-time climate change dashboard
+- Automate monthly data updates
 
 ---
 
@@ -63,10 +96,10 @@ Contributions and suggestions are welcome! Feel free to fork the repo and raise 
 
 ## 📩 Contact
 
-Nithish Kumar
+**Nithish Kumar**  
 [GitHub Profile](https://github.com/NithishKumarSK)  
-Feel free to connect with me for any collaboration or feedback.
+📬 Feel free to connect with me for any collaboration or feedback.
 
 ---
 
-> *"We do not inherit the Earth from our ancestors, we borrow it from our children."* 🌱
+> "We do not inherit the Earth from our ancestors, we borrow it from our children." 🌱
