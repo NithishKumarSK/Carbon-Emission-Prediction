@@ -24,10 +24,15 @@ This project focuses on the **cleaning, preparation, modeling, and analysis of g
 
 carbon/
 ├── 1_data_preparation.ipynb # Notebook for data cleaning and preprocessing
+
 ├── 2_data_exploration.ipynb # Notebook for data visualization and analysis
+
 ├── 3_model_building.ipynb # Notebook for model training and evaluation
+
 ├── data_cleaned.csv # Final cleaned dataset
+
 ├── climate_change_download_0.xls # Raw downloaded dataset
+
 ├── README.md # Project description (this file)
 
 ---
