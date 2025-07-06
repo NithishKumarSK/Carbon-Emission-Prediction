@@ -23,6 +23,7 @@ This project focuses on the **cleaning, preparation, modeling, and analysis of g
 ## 📁 Folder Structure
 
 carbon/
+
 ├── 1_data_preparation.ipynb # Notebook for data cleaning and preprocessing
 
 ├── 2_data_exploration.ipynb # Notebook for data visualization and analysis
